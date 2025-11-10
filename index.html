@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <!-- Google font cmd link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font awesome cmd link -->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Munna</title>
+    <link rel="shortcut icon" href="assets/logo taital.png" type="image/x-icon">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    :root {
+        /* color for design */
+        --first-Color: #8FC74A;
+        --second-Color: #373934;
+        --bg-Color: #c0dbeb;
+    }
+</style>
+<!-- use brack point 880 px and 1080px and footer 680px      //use 680px for font -->
+
+<body>
+    <header>
+        <!-- navigation bar container code -->
+        <nav class="flex items-center justify-between px-[3rem] py-[.5rem] bg-white">
+            <div class="w-[15%]  min-[880px]:w-[10%] cursor-pointer">
+                <img src="assets/m.png" alt="No Image Found">
+            </div>
+            <div class="flex gap-[4rem] items-center">
+                <div class="hidden  min-[880px]:block">
+                    <ul class="flex gap-[3rem] whitespace-nowrap text-[1.2rem] font-[Nunito] font-[700] ">
+                        <li class="cursor-pointer hover:text-[var(--first-Color)]">Home</li>
+                        <li class="cursor-pointer hover:text-[var(--first-Color)]">Blog</li>
+                        <li class="cursor-pointer hover:text-[var(--first-Color)]">Shop</li>
+                        <li class="cursor-pointer hover:text-[var(--first-Color)]">About Us</li>
+                        <li class="cursor-pointer hover:text-[var(--first-Color)]">Contact</li>
+                    </ul>
+                </div>
+                <div class="hidden  min-[1080px]:block">
+                    <div class="flex gap-[1.5rem] ">
+                        <i class="fa-solid fa-user cursor-pointer text-[1.5rem] hover:text-[var(--first-Color)]"></i>
+                        <i class="fa-solid fa-heart cursor-pointer text-[1.5rem] hover:text-[var(--first-Color)]"></i>
+                        <i
+                            class="fa-solid fa-cart-shopping cursor-pointer text-[1.5rem] hover:text-[var(--first-Color)]"></i>
+                    </div>
+                </div>
+                <div class=" block min-[1080px]:hidden hover:text-[var(--first-Color)]  cursor-pointer">
+                    <i class="fa-solid fa-bars text-[2rem]"></i>
+                </div>
+            </div>
+
+        </nav>
+        <!-- Home page container code -->
+        <main class=" h-[100%] w-[100%] bg-cover  bg-no-repeat text-white"
+            style="background-image: url(assets/v2osk-e7jH9TL9WcM-unsplash.jpg);">
+            <div class=" px-[3rem]  ">
+                <h1
+                    class="text-[2.5rem] leading-[3rem] min-[680px]:leading-[4rem] font-bold mb-[2rem] pt-[150px] min-[680px]:text-[3.5rem]">
+                    The
+                    Flower <br><span class="text-[var(--first-Color)]">Shopping
+                        Destination</span>
+                </h1>
+                <p class="text-justify text-[1rem] min-[680px]:text-[1.3rem] min-[680px]:text-left">They
+                    abbreviated
+                    "dolorem" (meaning "pain") to
+                    "lorem," which
+                    carries no
+                    meaning in
+                    Latin. "Ipsum"
+                    translates to "itself," and the text frequently includes phrases such as "consectetur adipiscing
+                    elit" and "ut labore et dolore." These Latin fragments, derived from Cicero's philosophical
+                    treatise, were rearranged to create the standard dummy text that has become a fundamental tool in
+                    design and typography across generations.</p>
+                <button
+                    class="mt-[2rem] px-[2.5rem] py-[.8rem] bg-[var(--first-Color)] font-semibold text-[1rem] rounded-[.3rem] mb-[100px]">Start
+                    Shopping</button>
+            </div>
+        </main>
+    </header>
+    <!-- border line -->
+    <div class="w-[100%] h-[60px] bg-[var(--first-Color)]">
+    </div>
+    <!-- discound page -->
+    <div class="h-[100%] w-[100%] text-center mb-[6rem]">
+        <h4 class="text-[1rem] font-light mt-[10%] min-[680px]:text-[1.5rem] min-[880px]:text-[2rem]">
+            Perfect bunch for every occasion</h4>
+        <h1
+            class="text-[1.8rem] leading-[3rem] min-[680px]:leading-[4rem] font-bold  min-[680px]:text-[2rem] mb-[100px] min-[880px]:text-[2.5rem]">
+            <span class="text-[var(--first-Color)]">Discount
+                up to 30%</span> off for your
+            first purchase
+        </h1>
+        <div>
+            <button
+                class="px-[3rem] py-[.4rem] border-dotted border-[2px] border-[var(--first-Color)] rounded-[10px] mr-[50px] text-[1.2rem] font-semibold min-[880px]:px-[4rem] mind-[880px]:py-[.5rem]">Know
+                More</button>
+            <button
+                class="px-[3rem] py-[.5rem]  bg-[var(--first-Color)] rounded-[10px] text-[1.2rem] font-semibold text-white min-[880px]:px-[4rem] mind-[880px]:py-[.6rem]">Buy
+                Now</button>
+        </div>
+    </div>
+    <!-- border line -->
+    <div class="w-[100%] h-[60px] bg-[var(--first-Color)] mb-[50px]">
+    </div>
+    <!-- About me page -->
+    <div class="px-[3rem] py-[5rem] ">
+        <div class="">
+            <h4 class="text-[1rem] font-semibold">About US</h4>
+            <h1 class="text-[2rem] font-bold leading-[2.5rem] min-[880px]:text-[3rem] min-[880px]:leading-[3.6rem] ">
+                <span class="text-[var(--first-Color)] ">Delivering
+                    Nature's
+                </span><br>Beauty to Your Love
+            </h1>
+            <p
+                class="mt-[1rem] text-[.8rem] font-bold text-justify leading-[1.5rem] min-[880px]:text-[1rem] min-[880px]:leading-[1.5rem] min-[880px]:font-semibold min-[880px]:mt-[2rem]">
+                Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit.
+                Maxime voluptas
+                quis cum
+                aliquam tempore qui
+                reprehenderit placeat animi cupiditate sint accusantium autem ducimus sed ab, amet ullam officiis.
+                Voluptate consequatur saepe excepturi, laborum assumenda optio recusandae facilis deserunt eligendi ex
+                in veritatis mollitia quod soluta necessitatibus distinctio a odit facere rerum dolorem pariatur, eius
+                officia vitae. Maiores cupiditate magnam odio similique delectus dolor mollitia exercitationem error
+                voluptatibus voluptatem itaque laborum reprehenderit vel ipsa aperiam soluta, vitae quas perspiciatis
+                rem ipsam. Repellat quaerat laudantium, pariatur aperiam a et suscipit ducimus? Ratione incidunt,
+                voluptatum ut exercitationem aliquid hic voluptate perspiciatis expedita illo itaque mollitia, amet et,
+                rem quod ullam ducimus unde soluta perferendis. Omnis mollitia nulla veritatis autem. Quaerat error
+                incidunt tenetur nisi nam architecto doloribus perferendis fugiat veniam. Exercitationem, necessitatibus
+                assumenda veniam nihil animi, possimus itaque natus voluptates facere rerum in quo minus libero odit
+                minima! Velit iure perferendis quae ad labore similique, laudantium voluptates molestiae pariatur eius!
+                Architecto commodi natus iste labore animi maiores? Eaque illum quod cupiditate iure esse, delectus
+                nobis pariatur nemo sapiente placeat odit. Id, animi placeat perferendis quaerat numquam repudiandae,
+                provident nobis veritatis exercitationem, necessitatibus obcaecati rerum inventore quasi reprehenderit
+                assumenda cumque dignissimos temporibus iusto fugit blanditiis debitis eos. Ab distinctio doloremque
+                velit dolorem cum eius possimus, voluptatem a culpa modi eaque exercitationem laborum perspiciatis
+                dolorum, error ex aspernatur expedita maiores nam fugiat saepe. Voluptas fugit architecto similique! Vel
+                ipsa qui eos corporis facilis esse ea odio, minus amet quis quia necessitatibus officiis facere aliquid
+                aut nisi laborum iure culpa eaque perspiciatis? Ea quia accusantium sunt dolor iusto veritatis ullam est
+                a laudantium quas ratione officia cum veniam nihil, commodi optio fugiat voluptas, explicabo, eveniet
+                repellendus necessitatibus corporis accusamus? Voluptatum distinctio eveniet debitis! Labore, animi
+                sapiente voluptatibus soluta libero nemo tempore numquam voluptas mollitia quis delectus ex facilis eos
+                consequatur sed corporis voluptatum porro in optio temporibus nisi rerum nulla consequuntur architecto.
+                Praesentium enim molestias quibusdam, eius impedit facere perferendis dolorum ipsam dicta quas, nulla
+                fuga. Incidunt natus cum quia molestias ipsa. Praesentium facere similique impedit voluptate ullam
+                necessitatibus numquam error ratione voluptatem corporis? Voluptatem ut perferendis accusamus. Dolor
+                beatae sunt porro vero, deleniti in velit mollitia molestias dolore aliquam quis ad quo, odio dolorem
+                aperiam ipsa cum magnam reprehenderit autem! Placeat deleniti corporis sapiente ad officia maxime unde
+                officiis. Ad corporis nihil dolores labore veritatis cum animi aliquam expedita! Architecto nobis
+                cupiditate reiciendis voluptates ad?</p>
+            <h5 class="mt-[1.5rem] text-[1.3rem] italic font-[MomoSignature]  font-[600]">Md. Monerujamman
+                Munna</h5>
+        </div>
+    </div>
+    <!-- border line -->
+    <div class="w-[100%] h-[60px] bg-[var(--first-Color)]">
+    </div>
+    <!-- footer page -->
+    <footer class="bg-white px-[3rem] mb-[30px]">
+        <div class="mb-[20px]">
+            <img class="w-[10%] pt-[50px]" src="assets/m.png" alt="">
+        </div>
+        <div class="flex justify-between items-start font-semibold">
+            <ul>
+                <li class="text-[14px]  opacity-[70%] mb-[10px] cursor-pointer">PLAIN</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Product</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Peicing</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Customers</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Startup program</li>
+            </ul>
+            <ul>
+                <li class="text-[14px]  opacity-[70%] mb-[10px] cursor-pointer">CHANNELS</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Slack</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Microsoft Teams</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Discourse</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Email</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Live chat</li>
+            </ul>
+            <ul>
+                <li class="text-[14px]  opacity-[70%] mb-[10px] cursor-pointer">RESOURCES</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Blog</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Docs</li>
+                <li class="cursor-pointer hover:text-[var(--first-Color)]">Security</li>
+            </ul>
+        </div>
+        <div class=" justify-between items-end min-[880px]:flex">
+            <div class="mt-[40px] text-[14px] font-semibold">
+                <div class="pb-[5px] gap-4 items-center min-[580px]:flex">
+                    <h5 class="cursor-pointer">Consent Preferences</h5>
+                    <h5 class="cursor-pointer hover:text-[var(--first-Color)]">Privacy</h5>
+                    <h5 class="cursor-pointer hover:text-[var(--first-Color)]">Cookies</h5>
+                    <h5 class="cursor-pointer hover:text-[var(--first-Color)]">Terms</h5>
+                    <h5 class="cursor-pointer hover:text-[var(--first-Color)]"> Data Processing</h5>
+                </div>
+                <div class="text-[14px]  opacity-[70%] mt-[5px]">
+                    <h5>Copyrigh © 2025 munna design and creation. All Rights Reserved</h5>
+                </div>
+            </div>
+            <div class="flex gap-[1rem] mt-[30px]">
+                <i class="fa-brands fa-facebook text-[2rem] hover:text-[var(--first-Color)]"></i>
+                <i class="fa-brands fa-telegram text-[2rem] hover:text-[var(--first-Color)]"></i>
+                <i class="fa-brands fa-facebook-messenger text-[2rem] hover:text-[var(--first-Color)]"></i>
+                <i class="fa-brands fa-whatsapp text-[2rem] hover:text-[var(--first-Color)]"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- border line -->
+    <div class="w-[100%] h-[40px] bg-[var(--first-Color)]">
+    </div>
+</body>
+
+</html>
